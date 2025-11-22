@@ -1,0 +1,64 @@
+/* import fonts from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Pinyon+Script&display=swap');
+
+/* fonts  */
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* header  */
+header {
+    width: 100%;
+    background-color: #153D70;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    flex-basis: 40%;
+}
+
+nav {
+    flex-basis: 60%;
+}
+
+
+/* ul {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* nav>ul {
+    display: flex;
+    flex-direction: row;
+} */
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+/* Selecting the links */
+.nav-bar-link>a {
+    color: #ffffff;
+    text-decoration: none;
+}
