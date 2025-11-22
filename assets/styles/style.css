@@ -20,6 +20,17 @@
     font-style: normal;
 }
 
+body{
+    margin: 0;
+}
+
+
+
+
+ /* spacing  */
+ .text-center{
+    text-align: center;
+ }
 
 /* header  */
 header {
@@ -31,24 +42,18 @@ header {
     align-items: center;
 }
 
-h1 {
+#brand {
     flex-basis: 40%;
+}
+
+#brand>h1{ /* Selecting the child fo brand id */
+    margin:0;
 }
 
 nav {
     flex-basis: 60%;
 }
 
-
-/* ul {
-    display: flex;
-    flex-direction: row;
-} */
-
-/* nav>ul {
-    display: flex;
-    flex-direction: row;
-} */
 
 #nav-bar {
     display: flex;
@@ -61,4 +66,42 @@ nav {
 .nav-bar-link>a {
     color: #ffffff;
     text-decoration: none;
+}
+
+
+ /* footer */
+footer{
+    width: 100%;
+    background-color: #153D70;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#hours {
+    flex-basis: 40%;
+}
+
+#hours > h3,p{
+    margin: 0;
+}
+#social {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+/* home */
+#home-image{
+    width: 100%;
+}
+
+#home-message{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
