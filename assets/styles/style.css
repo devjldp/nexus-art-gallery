@@ -117,6 +117,17 @@ footer{
     align-items: center;
 }
 
+#contact-form{
+    background-color: #e3e6e8;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.form-input{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
 
 .btn-submit{
     background-color: #fafafafa;
@@ -124,6 +135,7 @@ footer{
     border: 1px solid #153D70;
     padding: 5px 15px;
     border-radius: 25px;
+    margin: auto;
     margin-top: 15px;
 }
 
@@ -132,5 +144,8 @@ footer{
     color: #fafafa;
     cursor: pointer;
 }
+
+
+
 
 /* responsive design */
