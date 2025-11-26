@@ -187,7 +187,20 @@ footer{
     width: 100;
 }
 
+/* artist.html  */
 
+.artist{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.artist-name{
+    flex: 25%;
+}
+.artist-bio{
+    flex: 70%;
+}
 
 
 /* responsive design */
