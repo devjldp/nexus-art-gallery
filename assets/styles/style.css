@@ -130,7 +130,7 @@ footer{
 }
 
 .btn-submit{
-    background-color: #fafafafa;
+    background-color: #fafafa;
     color: #153D70;
     border: 1px solid #153D70;
     padding: 5px 15px;
@@ -143,6 +143,48 @@ footer{
     background-color: #153D70;
     color: #fafafa;
     cursor: pointer;
+}
+
+
+/* Gallery  */
+.picture-card-left{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.picture-card-right{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 40% 60%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.picture-left{
+    /* height: auto; */
+    grid-row:1 / span 3;
+    grid-column: 1 / 2;
+    border: 2px solid #000;
+    /* background-color: antiquewhite;
+     */
+}
+
+.picture-right{
+    height: auto;
+    grid-row:1 / span 3;
+    grid-column: 2 / 3;
+    border: 2px solid #000;
+    /* background-color: antiquewhite;
+     */
+}
+.picture-gallery{
+    width: 100;
 }
 
 
