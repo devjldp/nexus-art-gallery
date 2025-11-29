@@ -68,6 +68,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-bar-link>a:hover{
+    color: rgb(45, 130, 80);
+}
+
 
  /* footer */
 footer{
@@ -183,9 +187,9 @@ footer{
     /* background-color: antiquewhite;
      */
 }
-.picture-gallery{
-    width: 100;
-}
+/* .picture-gallery{ */
+    /* width: 100;
+} */
 
 /* artist.html  */
 
@@ -204,3 +208,32 @@ footer{
 
 
 /* responsive design */
+
+/* media queries for small screens  */
+@media screen and (max-width: 600px){
+    /* index.html  */
+
+
+    /* gallery.html  */
+    .picture-card-left, .picture-card-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .mt-2{
+        margin-top: 2vh;
+    }
+
+    /* artists  */
+    .artist{
+        flex-direction: column;
+    }
+
+    .artist-name, .artist-bio{
+        flex: 100%;
+    }
+    /* contact  */
+    #main-contact{
+        flex-direction: column;
+    }
+
+}
