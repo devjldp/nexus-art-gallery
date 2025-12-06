@@ -1,6 +1,6 @@
 # Nexus Art Gallery
 
-# Introduction
+## Introduction
 
 Nexus Art Gallery is a fictional online gallery created as part of a web development project.
 
@@ -9,27 +9,26 @@ The purpose of this website is to establish a refined and elegant online presenc
 The Nexus Art Gallery website is currently live, and you can explore it here.
 
 
+## pages included
 
+## Technologies used
 
+## Project Structure (optional)
 
+## User Stories
 
+## Design
+### Color Palette
+### Typography
+### Wireframes - Responsive Design
 
+## Testing
+### Manual testing
+### HTML validation
+### CSS validation
+### Browsers Tested
+### Performance and accessibility
 
-# CVode Validation
-
-# CSS
-here you are going to display the image...
-No errors found
-
-# HTML
-
-## gallery.html
-paste here the screenshot
-
-In total we had 8 warnings related to use more headers. But in our design they are no needed.
-
-## contact.html
-display contacthtml_validation_error image
-
-
-The validator found one error, I fixed this bug adding an action to the form.
+## Credits
+### Images
+### Code
